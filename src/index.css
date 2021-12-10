@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap");
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background-color: rgb(31, 41, 55);
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+::-webkit-scrollbar-corner {
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(17, 24, 39);
+  border: 1px solid rgb(55, 65, 81);
+  border-radius: 10px;
+}
+
+body {
+  background-color: rgb(17, 24, 39);
+  font-family: "Open Sans", sans-serif;
+  font-smooth: always;
+}
